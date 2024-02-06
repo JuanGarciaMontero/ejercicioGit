@@ -3,7 +3,7 @@
 pipeline {
     agent none
     stages {
-        stage{'Stage crea contenedor') {
+        stage ('Stage crea contenedor') {
                    agent {
                        docker { image 'node:20-alpine' }
                    }
