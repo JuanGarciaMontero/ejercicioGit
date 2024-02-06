@@ -13,6 +13,6 @@ pipeline {
                    }
         }
         }
-port { always { echo "Fin del pipeline" } }              
+post { always { echo "Fin del pipeline" } }              
 }              
                   
